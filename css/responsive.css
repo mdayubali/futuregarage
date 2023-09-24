@@ -7,13 +7,16 @@
         width: 100%;
     }
     .col-4{
-        width: 100%;
+        width: 100% !important;
+    }
+    .support .col-4{
+        max-width: 100%;
+        flex-basis: 100%;
     }
     .logo img{
         width: 100%;
     }
     .navbar{
-        /* width: 80%; */
         display: none;
     }
     .d-flex{
@@ -34,8 +37,6 @@
         position: static;
     }
     .bannerSection{
-        /* background: url('../images/bg-hero.jpg'); */
-        /* background-size: cover; */
         padding-block: 60px
     }
     .bannerSection p{
@@ -81,7 +82,7 @@
     }
 }
 
-@media (max-width:1024px){
+/* @media (max-width:768px){
     .container{
         max-width: 90%;   
         width: 100%;
@@ -90,4 +91,8 @@
         font-size: 58px;
         line-height: 60px;
     }
-}
+    .support .col-4{
+        max-width: 45%;
+        flex-basis: 50%;
+    }
+} */
