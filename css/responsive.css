@@ -1,0 +1,93 @@
+@media  (max-width: 575px){
+    .container{
+        max-width: 90%;
+        width: 100%;
+    }
+    .col-6{
+        width: 100%;
+    }
+    .col-4{
+        width: 100%;
+    }
+    .logo img{
+        width: 100%;
+    }
+    .navbar{
+        /* width: 80%; */
+        display: none;
+    }
+    .d-flex{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .py-90{
+        padding-block: 45px;
+    }
+    .navbar.d-flex{
+        align-items: center;
+    }
+    .gap-20{
+        margin-inline: 10px;
+    }
+    .sticky{
+        position: static;
+    }
+    .bannerSection{
+        /* background: url('../images/bg-hero.jpg'); */
+        /* background-size: cover; */
+        padding-block: 60px
+    }
+    .bannerSection p{
+        font-size: 18px;
+        padding-inline: 20px;
+    }
+    h1.heading{
+        font-size: 48px;
+        line-height: 56px;
+    }
+    h2.title{
+        font-size: 24px;
+        text-align: center;
+    }
+    .support .card{
+        margin-block-start: 30px;
+    }
+    .card{
+        padding: 30px;
+    }
+    .aboutSection .card-body .text{
+        font-size: 16px;
+        padding: 20px;
+    }
+    .w-80{
+        width: 100%;
+    }
+    .aboutSection h2.title{
+        color: var(--colorPrimary);
+        font-size: 24px;
+    }
+    .aboutSection .card{
+        padding-block: 30px;
+        position: relative;
+        min-height: 400px;
+    }
+    .aboutSection .card-body{
+        margin-block: 30px;
+        position: absolute;
+        top: 5%;
+        /* inset: */
+        height: 100%;
+    }
+}
+
+@media (max-width:1024px){
+    .container{
+        max-width: 90%;   
+        width: 100%;
+    };
+    h1.heading{
+        font-size: 58px;
+        line-height: 60px;
+    }
+}
